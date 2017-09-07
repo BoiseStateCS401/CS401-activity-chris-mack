@@ -1,0 +1,77 @@
+body {
+  background-color: lightblue;
+  }
+
+* {
+	font-family: "Georgia";
+  }
+  
+  h1 {
+	  text-align: center;
+	  font-family: "Serif";
+	  font-size: 40px;
+	  
+  }
+  
+  p , ul{
+	  color: blue;
+  }
+	
+	em{
+		color: red;
+	}
+
+	ul{
+		list-style: square;
+		
+	}
+	
+	img {
+		border-radius: 10px;
+	}
+	
+	img:hover{
+		opacity: 0.5;
+	}
+	
+	li{
+		margin: 0 0 10px 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	a:link {
+		color: red;
+	}
+	
+	a:visited {
+		color: green;
+	}
+	
+	a:hover {
+		color: blue;
+	}
+	
+	pre {
+	  width: 300px;
+	  border-style: solid;
+	  padding: 10px;
+	  margin: 10px 10px 10px 10px;
+	  background-color: yellow;
+	}
+	
+	table, th, td{
+		margin: 10px 10px 10px 10px;
+		border: 1px solid;
+		text-align: center;
+	}
+	th, td{
+		padding: 2px;
+		
+	}
+	ul > li > ul > li{
+		color: purple;
+		list-style: circle;
+	}
