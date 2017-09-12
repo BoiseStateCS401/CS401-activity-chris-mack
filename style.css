@@ -1,5 +1,6 @@
 body {
-  background-color: lightblue;
+  background-color: darkblue;
+  color:white;
   }
 
 * {
@@ -13,12 +14,16 @@ body {
 	  
   }
   
+  h3{
+	  font-size: 25px;
+  }
+  
   p , ul{
-	  color: blue;
+	  color: white;
   }
 	
 	em{
-		color: red;
+		color: gray;
 	}
 
 	ul{
@@ -27,6 +32,8 @@ body {
 	}
 	
 	img {
+		width: 50%;
+		align:center;
 		border-radius: 10px;
 	}
 	
@@ -48,11 +55,11 @@ body {
 	}
 	
 	a:visited {
-		color: green;
+		color: red;
 	}
 	
 	a:hover {
-		color: blue;
+		color: white;
 	}
 	
 	pre {
@@ -60,7 +67,7 @@ body {
 	  border-style: solid;
 	  padding: 10px;
 	  margin: 10px 10px 10px 10px;
-	  background-color: yellow;
+	  background-color: green;
 	}
 	
 	table, th, td{
@@ -73,6 +80,25 @@ body {
 		
 	}
 	ul > li > ul > li{
-		color: purple;
+		color: yellow;
 		list-style: circle;
 	}
+	
+	nav > ul > li {
+		list-style: none;
+		display:inline-block;
+		margin: 20px;
+		font-size: 25px;
+	}
+	
+	#logo{
+		opacity:1;
+		width:20%;
+		float:left;
+	}
+	
+	#header-heading{
+		margin-right:20%;	
+	}
+	
+
