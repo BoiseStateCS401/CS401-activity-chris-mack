@@ -31,9 +31,9 @@ body {
 		
 	}
 	
-	img {
+	img.center {
 		width: 50%;
-		align:center;
+		
 		border-radius: 10px;
 	}
 	
