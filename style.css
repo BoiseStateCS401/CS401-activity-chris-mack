@@ -99,5 +99,11 @@ body {
 	#header-heading{
 		margin-right:20%;	
 	}
+
+	#logo .skew{
+    		-ms-transform: rotate(180deg); /* IE 9 */
+    		-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    		transform: rotate(180deg);	
+	}	
 	
 
